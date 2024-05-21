@@ -21,3 +21,7 @@ INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('2.0
 INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Trilha HTML', 'Trilha principal do curso', 1, 'https://pix4free.org/assets/library/2021-07-05/originals/online-courses.jpg', 1, 1);
 INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Forum', 'Tire suas dúvidas', 2, 'https://pix4free.org/assets/library/2021-07-05/originals/online-courses.jpg', 2, 1);
 INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Lives', 'Lives exclusivas para a turma', 3, 'https://pix4free.org/assets/library/2021-07-05/originals/online-courses.jpg', 0, 1);
+
+INSERT INTO tb_section (title, description, position, img_uri, resource_id, prerequisite_id) VALUES ('Capitulo 1', 'Neste capitulo vamos começar', 1, 'https://pix4free.org/assets/library/2021-07-05/originals/online-courses.jpg', 1, null);
+INSERT INTO tb_section (title, description, position, img_uri, resource_id, prerequisite_id) VALUES ('Capitulo 2', 'Neste capitulo vamos continuar', 2, 'https://pix4free.org/assets/library/2021-07-05/originals/online-courses.jpg', 1, 1);
+INSERT INTO tb_section (title, description, position, img_uri, resource_id, prerequisite_id) VALUES ('Capitulo 3', 'Neste capitulo vamos finalizar', 3, 'https://pix4free.org/assets/library/2021-07-05/originals/online-courses.jpg', 1, 2);
